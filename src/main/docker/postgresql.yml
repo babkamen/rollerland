@@ -1,0 +1,12 @@
+version: '2'
+services:
+    rollerland-postgresql:
+        container_name: rollerland-postgresql
+        image: postgres:9.5.3
+        # volumes:
+        #     - ~/volumes/jhipster/rollerland/postgresql/:/var/lib/postgresql/
+        environment:
+            - POSTGRES_USER=rollerland
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432
