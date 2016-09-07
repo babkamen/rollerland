@@ -21,10 +21,10 @@ spring:
         serialization.indent_output: true
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:postgresql://localhost:5432/rollerland
+        url: jdbc:postgresql://elmer.db.elephantsql.com:5432/dqrtfccv #jdbc:postgresql://localhost:5432/rollerland
         name:
-        username: rollerland
-        password:
+        username: dqrtfccv #rollerland
+        password: R4WlloT3t2SINn8GKmT7NIOh9J-tmans
     jpa:
         database-platform: com.geymer.rollerland.domain.util.FixedPostgreSQL82Dialect
         database: POSTGRESQL
